@@ -1,8 +1,9 @@
 ## React-Dev-Setup
 
 # Method - 3 (React with Webpack setup)
+#### Find the complete code here - https://github.com/akhiltejabm/React-Dev-Setup/tree/master/method3
 
-### Commands to execute in the terminal
+### Commands to be executed in the terminal
 
 
 ``` 
@@ -12,7 +13,7 @@ npm i @babel/core @babel/preset-env @babel/preset-react babel-loader css-loader 
 
 npm i react react-dom --save
 ```
-### Add babel and presets in package.json
+#### Add babel and presets in package.json
 ```
 "babel": {
    "presets": [
@@ -21,9 +22,9 @@ npm i react react-dom --save
    ]
  }
 ```
-### add   "start" : "webpack-dev-server" under scripts of package.json
+##### add   "start" : "webpack-dev-server" under scripts of package.json
 
-### create “webpack.config.js” file in the same folder and put below code;
+##### create “webpack.config.js” file in the same folder and put below code;
 ```
 var path = require("path");
 var HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -52,11 +53,11 @@ module.exports = {
 }
 ```
 
-### create “index.js” file in “app” folder
+#### create “index.js” file in “app” folder
 
-### create “index.html” file in “app” folder
+#### create “index.html” file in “app” folder
 
-### put below code in “index.html”
+##### put below code in “index.html”
 
 ```
 <!DOCTYPE html>
@@ -72,9 +73,9 @@ module.exports = {
 </body>
 </html>
 ```
-### (or you collect in github/ip11 repository)
 
-// put below code in “index.js”
+##### put below code in “index.js”
+
 ```
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -90,7 +91,8 @@ class App extends React.Component {
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
-// put this in terminal
+#### put this in terminal
+
 ```
 npm start 
 ```
