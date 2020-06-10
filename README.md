@@ -11,7 +11,7 @@
  
  
 # Method - 3 (React with Webpack setup)
-#### Find the complete code here - https://github.com/akhiltejabm/React-Dev-Setup/tree/master/method3
+#### Please find the complete code here - https://github.com/akhiltejabm/React-Dev-Setup/tree/master/method3
 ## Steps to be followed for Method-3
 ### Commands to be executed in the terminal
 
