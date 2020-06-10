@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"
+    integrity="sha256-L/S5mZS8SPJVWoKym3Zwgf2f3/s3X3MaZ7QBA9HdnN8=" crossorigin="anonymous"></script>
+
+<body>
+    <div id="root">
+
+    </div>
+</body>
+
+
+<script type="text/babel">
+    class Prash extends React.Component {
+        render() {
+            return (
+                <div>
+                    <h1> Hello World </h1>
+                    <p> This is my first day with react </p>
+                </div>
+            )
+        }
+    }
+    ReactDOM.render(<Prash />, document.getElementById('root'));
+
+</script>
+
+
+</html>
